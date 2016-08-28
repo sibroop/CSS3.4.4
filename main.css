@@ -1,0 +1,18 @@
+.main-div{
+    width: 35%;
+    height: 300px;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid  gray;
+    text-align: center;
+}
+.linerGradient{
+    background: linear-gradient(90deg,red,orange,green);
+}
+.circulerGradient{
+    background: radial-gradient(circle at 50% 0%,  red,yellow,green);
+}
+.elipticalGradient{
+    background: radial-gradient(farthest-corner at 50% 0%,red,yellow,green);
+
+}
